@@ -1,0 +1,35 @@
+/* 🌙 Universal Dark Mode Styles */
+body.dark {
+  background: #111;
+  color: #f5f5f5;
+}
+
+body.dark header {
+  background: #1a1a1a;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .logo,
+body.dark footer {
+  color: #f5f5f5;
+}
+
+body.dark .nav-links a {
+  color: #ccc;
+}
+
+body.dark .nav-links a.active,
+body.dark .nav-links a:hover {
+  color: #fff;
+  background: #8a2be2;
+}
+
+body.dark img {
+  border-color: #fff;
+  box-shadow: 6px 6px 0 #8a2be2;
+}
+
+body.dark .card {
+  background: linear-gradient(135deg, #8a2be2, #ff66cc);
+  color: white;
+}
